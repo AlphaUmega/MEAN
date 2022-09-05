@@ -1,16 +1,14 @@
 import './App.css';
-
-import UserLoginComponent from './components/preLogin/userLogin/UserLoginComponent';
+import PreLoginComponent from './components/preLogin/PreLoginComponent';
+import {Routes,Route,Navigate} from 'react-router-dom';
 
 function App() {
   return (
-    <div className='row' style={{padding:0, margin:0}}>
-      <div className='col-md-8'>
-        <UserLoginComponent />
-      </div>
-      <div className='col-md-4'>
-        <UserLoginComponent />
-      </div>
+    <div style={{padding:0, margin:0}}>
+      <Routes>
+        <Route path='/' element={<Navigate to='/Home' />}/>
+        <Route path='/Home' element={<PreLoginComponent />}/>
+      </Routes>
     </div>
   );
 }

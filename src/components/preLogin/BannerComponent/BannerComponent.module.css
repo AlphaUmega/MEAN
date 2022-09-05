@@ -1,0 +1,7 @@
+.backgroundImage{
+    background-image: url('./images/pexels-syed-hasan-mehdi-831243.jpg');
+    min-height: 100vh;
+    height: fit-content;
+    width: 103%;
+    background-position: center;
+}
