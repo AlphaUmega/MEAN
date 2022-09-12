@@ -31,9 +31,9 @@ export default function PreLoginComponent(){
                 <div className='col-md-12 col-sm-12'>
                     <BannerComponent />
                 </div>
-                <div className='col-md-12 col-sm-12'>
+                {/* <div className='col-md-12 col-sm-12'>
                     <UserLogin />    
-                </div>
+                </div> */}
             </div>
         </>
     )
